@@ -1,0 +1,24 @@
+/* The search field */
+.search-bar input[type="text"] {
+  box-sizing: border-box;
+  display: inline-block;
+  width: calc(100% - 64px - 10px); /* 48px is the width of the search button */
+  height: 36px;
+  padding: var(--space-small);
+  font-size: var(--font-size-small);
+  border: solid 0.5px #828282;
+  outline: none;
+}
+
+/* The submit button */
+.search-bar input[type="submit"] {
+  box-sizing: border-box;
+  width: 64px;
+  height: 36px;
+  background-color: var(--color-light-grey);
+  color: var(--color-medium-grey);
+  border: solid 0.5px var(--color-medium-grey);
+  text-align: center;
+  vertical-align: top;
+  text-decoration: none;
+}

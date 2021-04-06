@@ -1,0 +1,13 @@
+.button {
+  padding: var(--space-small);
+  background-color: var(--color-red);
+  color: white;
+  font-weight: bold;
+  font-size: var(--font-size-small);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: black;
+}

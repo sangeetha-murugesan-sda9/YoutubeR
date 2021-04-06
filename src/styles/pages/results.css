@@ -1,0 +1,27 @@
+#results {
+  height: 100%;
+}
+
+#results .container > .title {
+  padding-left: var(--space-small);
+  margin-bottom: var(--space-medium);
+  font-size: var(--font-size-big);
+  letter-spacing: -0.75px;
+}
+
+@media (min-width: 400px) {
+  #results .card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #results .card .preview {
+    width: auto;
+    height: 160px;
+    margin-right: var(--space-medium);
+  }
+
+  #results .card .channel-thumb {
+    display: none;
+  }
+}

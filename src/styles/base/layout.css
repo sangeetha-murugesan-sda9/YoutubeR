@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.App {
+  background-color: var(--color-light-grey);
+  color: var(--color-dark-grey);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+@media (min-width: 400px) {
+  .container {
+    padding: var(--space-big);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+    padding: var(--space-big) 0;
+  }
+}

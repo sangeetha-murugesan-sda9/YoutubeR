@@ -1,0 +1,16 @@
+:root {
+  /* Color */
+  --color-red: crimson;
+  --color-light-grey: #f9f9f9;
+  --color-medium-grey: #727272;
+  --color-dark-grey: #212121;
+
+  /* Space */
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 24px;
+
+  /* Font sizes */
+  --font-size-small: 14px;
+  --font-size-big: 20px;
+}

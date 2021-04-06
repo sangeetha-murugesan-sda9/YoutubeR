@@ -1,0 +1,32 @@
+.meta-data {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--space-small);
+}
+
+.meta-data .left {
+  margin-right: var(--space-small);
+}
+
+.meta-data .channel-thumb {
+  border-radius: 500px;
+  width: 36px;
+  height: auto;
+}
+
+.meta-data .title,
+.meta-data .description {
+  font-size: var(--font-size-small);
+}
+
+.meta-data .title {
+  margin-bottom: var(--space-small);
+}
+
+.meta-data .description {
+  margin-bottom: var(--space-small);
+}
+
+.meta-data .description {
+  color: var(--color-medium-grey);
+}

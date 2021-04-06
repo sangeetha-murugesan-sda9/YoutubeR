@@ -1,0 +1,41 @@
+#video {
+  padding-bottom: 32px;
+}
+
+#video .video-container {
+  background-color: black;
+  margin-bottom: var(--space-big);
+  text-align: center;
+}
+
+#video .body-container {
+  margin: 0 auto;
+  padding-left: var(--space-big);
+  padding-right: var(--space-big);
+}
+
+#video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#video .channel-thumb {
+  width: 48px !important;
+}
+
+#video .title {
+  font-size: var(--font-size-big);
+}
+
+#video .description {
+  font-size: var(--font-size-small);
+  max-width: 640px;
+}
+
+@media (min-width: 750px) {
+  #video video {
+    width: 850px;
+  }
+}

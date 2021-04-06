@@ -1,0 +1,10 @@
+.card .preview {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 750px) {
+  .card .meta-data {
+    padding: 0;
+  }
+}
